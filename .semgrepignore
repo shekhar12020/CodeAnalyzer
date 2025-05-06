@@ -1,0 +1,16 @@
+# Ignore build output directories
+build/
+target/
+out/
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.iml
+
+# Ignore Gradle files
+.gradle/
+
+# But don't ignore test files
+!src/test/
+!test/ 
